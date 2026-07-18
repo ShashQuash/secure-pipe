@@ -26,6 +26,3 @@ jobs:
 
       - name: Run SecurePipe security scan
         run: python main.py
-'@
-
-[System.IO.File]::WriteAllText("$PWD\.github\workflows\securepipe.yml", $yaml)
