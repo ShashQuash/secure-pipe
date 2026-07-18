@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# Environment secrets
+.env
+*.env
+
+# SecurePipe output
+securepipe_report.json
+
+# OS / Editor
+.DS_Store
+.vscode/
+*.swp
